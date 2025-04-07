@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Viagens da Nayara</title>
+    <style>
+        body {
+            background-color: #bdba2d;
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: rgb(13, 185, 99);
+            color: rgb(255, 255, 255);
+            padding: 20px 0;
+            border-bottom: 2px solid rgb(216, 168, 235);
+            position: relative;
+            border-radius: 25px;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+            border: 5px solid yellow;
+            margin-bottom: 20px;
+        }
+
+        .presentation-box {
+            padding: 30px;
+            margin-bottom: 30px;
+            background-color: rgb(29, 114, 22);
+            color: rgb(255, 255, 255);
+            border-radius: 30px;
+            border: 2px solid red;
+        }
+
+        .presentation-box h1 {
+            font-size: 2rem;
+            color: yellow;
+        }
+
+        .presentation-box p {
+            font-size: 1.2rem;
+            color: #ffffff;
+        }
+
+        .btn-primary {
+            background-color: #644f26;
+            border-color: #fcbf49;
+        }
+
+        .destination, .visited-destination {
+            background-color: #5f4848;
+            padding: 20px;
+            border-radius: 20px;
+            margin-top: 20px;
+            border-left: 5px solid rgb(88, 88, 8);
+        }
+
+        .destination h2, .visited-destination h2 {
+            font-size: 1.8rem;
+            color: yellow;
+        }
+
+        .destination p, .visited-destination p {
+            font-size: 1.1rem;
+            color: #ffffff;
+        }
+
+        .destination img, .visited-destination img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .card-body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .card-title {
+            color: white;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+        }
+
+        .profile-container {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="container text-center">
+        <!-- Espaço para a foto de Nayara -->
+        <div class="profile-container">
+            <img src="./WhatsApp Image 2025-04-07 at 15.21.23.jpeg" alt="Foto de Nayara" class="profile-image">
+        </div>
+
+        <div class="presentation-box">
+            <h1>Nayara</h1>
+            <p class="lead">Meu nome é Nayara, sou apaixonada por viagens e estudo no Colégio Nadir. Sempre busco explorar novos lugares e culturas ao redor do mundo. A viagem é minha maior fonte de inspiração!</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <!-- Destinos que Nayara gostaria de visitar -->
+        <div class="destination">
+            <h2>Destinos que Quero Visitar</h2>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Paris, França</h3>
+                    <img src="./paris.jpg" alt="Paris, França">
+                    <p>Paris sempre foi um sonho para mim. A cidade das luzes é famosa pela sua arquitetura deslumbrante, museus incríveis como o Louvre e a Torre Eiffel, além de sua cultura vibrante e culinária maravilhosa. Eu adoraria vivenciar a atmosfera romântica de Paris e explorar seus bairros históricos.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Kyoto, Japão</h3>
+                    <img src="./kyoto.jpg" alt="Kyoto, Japão">
+                    <p>Kyoto é um destino que sempre me fascinou. Com seus templos antigos, jardins zen e as tradicionais casas de chá, é um lugar onde posso experimentar a serenidade e a paz que a cultura japonesa transmite. Quero muito passear por suas ruas tranquilas e mergulhar na história e tradições do Japão.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Capadócia, Turquia</h3>
+                    <img src="./capadocia.jpg" alt="Capadócia, Turquia">
+                    <p>A Capadócia é um destino mágico, famoso pelos seus balões de ar quente flutuando sobre as paisagens rochosas. Quero viver essa experiência única e ver o nascer do sol sobre o vale de Goreme, além de explorar suas cidades subterrâneas e as formações geológicas impressionantes.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Reykjavik, Islândia</h3>
+                    <img src="./reykjavik.jpg" alt="Reykjavik, Islândia">
+                    <p>A Islândia sempre me chamou a atenção com suas paisagens naturais únicas, como as geleiras, vulcões e fontes termais. Reykjavik, a capital, é um ponto de partida perfeito para explorar as maravilhas da natureza islandesa, como a famosa Lagoa Azul e o Círculo Dourado.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Patagônia, Argentina</h3>
+                    <img src="./patagonia.webp" alt="Patagônia, Argentina">
+                    <p>A Patagônia é um lugar que representa a vastidão e a beleza selvagem. Queria muito explorar suas geleiras, montanhas e lagos cristalinos. É o destino perfeito para quem ama a natureza intocada e aventuras ao ar livre.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destinos que Nayara já visitou -->
+        <div class="visited-destination">
+            <h2>Destinos que Já Visitei</h2>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Balneário Camboriú, SC, Brasil</h3>
+                    <img src="./balneario.jpg" alt="Balneário Camboriú, SC">
+                    <p>Balneário Camboriú é um destino perfeito para quem busca praias lindas e uma vida noturna agitada. Adorei conhecer a orla e a famosa Avenida Atlântica. A cidade tem muito a oferecer, com opções de lazer e ótimos restaurantes à beira-mar.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Gramado, RS, Brasil</h3>
+                    <img src="./gramados.jpg" alt="Gramado, RS">
+                    <p>Gramado é uma cidade encantadora, especialmente no inverno. Com suas construções no estilo europeu e clima frio, é o destino ideal para quem gosta de fondue, vinhos e o famoso Natal Luz. O charme e a tranquilidade de Gramado são irresistíveis.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container py-5 text-center">
+        <p>© Produzido por Nayara e Gustavo</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
